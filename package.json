@@ -1,7 +1,7 @@
 {
   "name": "credentials-io",
   "version": "0.0.0",
-  "description": "A library for reading/writing credentials.",
+  "description": "A library for reading/writing/verifying credentials.",
   "scripts": {
   },
   "repository": {
@@ -18,7 +18,7 @@
     "node": ">=0.10.0"
   },
   "directories": {
-    "lib": "./lib/credentials"
+    "lib": "./lib/credentials-io"
   },
-  "main": "./lib/credentials"
+  "main": "./lib/credentials-io"
 }
