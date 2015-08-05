@@ -2,18 +2,20 @@
   "name": "credentials-io",
   "version": "0.0.0",
   "description": "A library for reading/writing/verifying credentials.",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/credentials-io"
   },
   "dependencies": {
+    "async": "^1.4.0",
+    "jsonld": "^0.3.24",
+    "jsonld-signatures": "^1.0.1",
+    "lodash": "^3.10.1",
+    "request": "^2.60.0"
   },
-  "optionalDependencies": {
-  },
-  "devDependencies": {
-  },
+  "optionalDependencies": {},
+  "devDependencies": {},
   "engines": {
     "node": ">=0.10.0"
   },
