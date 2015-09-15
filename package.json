@@ -10,7 +10,7 @@
   "dependencies": {
     "async": "^1.4.0",
     "jsonld": "^0.3.24",
-    "jsonld-signatures": "^1.0.1",
+    "jsonld-signatures": "^1.0.2",
     "lodash": "^3.10.1",
     "request": "^2.60.0"
   },
