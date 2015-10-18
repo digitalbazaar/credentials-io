@@ -1,6 +1,6 @@
 {
   "name": "credentials-io",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A library for reading/writing/verifying credentials.",
   "scripts": {},
   "repository": {
