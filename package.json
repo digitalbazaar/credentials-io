@@ -2,21 +2,74 @@
   "name": "credentials-io",
   "version": "0.1.0",
   "description": "A library for reading/writing/verifying credentials.",
-  "scripts": {},
+  "homepage": "http://github.com/digitalbazaar/credentials-io",
+  "author": {
+    "name": "Digital Bazaar, Inc.",
+    "email": "support@digitalbazaar.com",
+    "url": "http://digitalbazaar.com/"
+  },
+  "contributors": [
+    {
+      "name": "Dave Longley",
+      "email": "dlongley@digitalbazaar.com"
+    },
+    {
+      "name": "Manu Sporny",
+      "email": "msporny@digitalbazaar.com"
+    },
+    {
+      "name": "David I. Lehn",
+      "email": "dlehn@digitalbazaar.com"
+    }
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/digitalbazaar/credentials-io"
+  },
+  "bugs": {
+    "url": "https://github.com/digitalbazaar/credentials-io/issues",
+    "email": "support@digitalbazaar.com"
+  },
+  "licenses": [
+    {
+      "type": "BSD",
+      "url": "https://github.com/digitalbazaar/credentials-io/raw/master/LICENSE"
+    }
+  ],
+  "scripts": {
+    "ci-lint": "grunt jshint --mode=ci || exit 0",
+    "lint": "grunt jshint",
+    "jscs": "grunt jscs",
+    "release": "grunt release",
+    "test-node": "grunt mochaTest",
+    "test-browser": "grunt shell:testBrowser",
+    "test": "grunt mochaTest",
+    "coverage": "grunt shell:coverage"
   },
   "dependencies": {
     "async": "^1.4.2",
     "did-io": "digitalbazaar/did-io#0.6.x",
     "jsonld": "^0.4.1",
-    "jsonld-signatures": "^1.0.2",
+    "jsonld-signatures": "digitalbazaar/jsonld-signatures#master",
     "lodash": "^3.10.1",
     "request": "^2.60.0"
   },
   "optionalDependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "commander": "^2.9.0",
+    "grunt": "~0.4.2",
+    "grunt-cli": "~0.1.9",
+    "grunt-contrib-jshint": "~0.10.0",
+    "grunt-jscs": "^1.0.0",
+    "grunt-mocha-test": "~0.12.4",
+    "grunt-release": "~0.9.0",
+    "grunt-shell": "~1.1.1",
+    "istanbul": "~0.3.2",
+    "mocha": "^2.3.3",
+    "mocha-phantomjs": "^4.0.1",
+    "phantomjs": "^1.9.0"
+  },
   "engines": {
     "node": ">=0.10.0"
   },
