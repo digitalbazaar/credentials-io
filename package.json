@@ -50,7 +50,7 @@
     "async": "^1.4.2",
     "did-io": "digitalbazaar/did-io#0.6.x",
     "jsonld": "^0.4.1",
-    "jsonld-signatures": "digitalbazaar/jsonld-signatures#master",
+    "jsonld-signatures": "^1.1.0",
     "lodash": "^3.10.1",
     "request": "^2.60.0"
   },
