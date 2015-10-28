@@ -49,7 +49,7 @@
   "dependencies": {
     "async": "^1.4.2",
     "did-io": "^0.6.1",
-    "jsonld": "^0.4.1",
+    "jsonld": "^0.4.2",
     "jsonld-signatures": "^1.1.2",
     "lodash": "^3.10.1",
     "request": "^2.60.0"
