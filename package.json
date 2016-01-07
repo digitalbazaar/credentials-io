@@ -1,6 +1,6 @@
 {
   "name": "credentials-io",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A library for reading/writing/verifying credentials.",
   "homepage": "http://github.com/digitalbazaar/credentials-io",
   "author": {
