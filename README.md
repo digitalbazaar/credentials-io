@@ -12,16 +12,16 @@ The call takes the following arguments:
  * **checkTimestamp** (*boolean*) - check signature timestamp (default: true) on the main Identity credential.
  * **maxTimestampDelta** (*int*) - signature must be created within a window of this many seconds (default: 15 minutes).
  * **documentLoader(url, callback(err, remoteDoc))** (*function*) - the document loader.
-* **callback(err, result)** (*function*) - the callback recieves the following object:
+* **callback(err, result)** (*function*) - the callback receives the following object:
 ```
 {
- verified: <true/false>,
- identity: <framed identity>,
- domain: <domain the signature was signed for>,
- publicKey: <public key object for the creator of the signature>,
- publicKeyOwner: <identity object for the creator of the signature>,
- // a map of verified objects for each credential (ID => verified)
- credentials: {}
+  verified: <true/false>,
+  identity: <framed identity>,
+  domain: <domain the signature was signed for>,
+  publicKey: <public key object for the creator of the signature>,
+  publicKeyOwner: <identity object for the creator of the signature>,
+  // a map of verified objects for each credential (ID => verified)
+  credentials: {}
 }
 ```
 
